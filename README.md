@@ -1,5 +1,3 @@
----
----
 # Resume of Frerich Raabe
 
 ## Personal Information
