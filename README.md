@@ -96,8 +96,8 @@ Other, non software-development related activities include:
   well as PDF documentation from the DocBook sources.
 * Staffed the froglogic booth at various conferences in Europe and the USA.
 * I created and maintained an IMAP server running exim and dovecot on FreeBSD; the
-  system authenticates users agianst an LDAP database. This system is used every
-  day by about 8 developers and required no maintenance efforts in the last
+  system authenticates users against an LDAP database. This system is used every
+  day by almost the entire company and required no maintenance efforts in the last
   twelve months.
 * Conducted on-site trainings for customers on two occasions.
 * Coordinates release testing and packaging for a number of product releases.
