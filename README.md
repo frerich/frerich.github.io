@@ -127,6 +127,12 @@ projects; I did publish a few projects myself, too.
   of KDE. The application transformed DocBook files to HTML on the fly (using
   XSLT) and presented those in an embedded HTML component (KHTML); C++ with
   Qt.
+* Wrote the XPath 1.0 engine for KSVG, the SVG rendering component in KDE.
+  This code was eventually integrated into WebKit by Apple because of which
+  my name is now mentioned in the Acknowledgements of every WebKit-based
+  browser (such as Chrome or Safari). The code is visible in the XPath\*
+  files in the WebCore source tree, e.g. in
+  [XPathPredicate.h](http://source-android.frandroid.com/external/webkit/Source/WebCore/xml/XPathPredicate.h)
 * Wrote the main KDE build script used by KDE developers, 'kde-build'; this
   shell script (pure 'sh', no 'bash') updated a local checkout of othe KDE
   sources (via CVS, which used to be the source control system of KDE at the
@@ -140,12 +146,6 @@ projects; I did publish a few projects myself, too.
 
 * Contributed the support for handling .netrc files to the Hex package manage
   used by virtually all Elixir projects (cf. [Hex pull request #925](https://github.com/hexpm/hex/pull/925)).
-* Wrote the XPath 1.0 engine for KSVG, the SVG rendering component in KDE.
-  This code was eventually integrated into WebKit by Apple because of which
-  my name is now mentioned in the Acknowledgements of every WebKit-based
-  browser (such as Chrome or Safari). The code is visible in the XPath\*
-  files in the WebCore source tree, e.g. in
-  [XPathPredicate.h](http://source-android.frandroid.com/external/webkit/Source/WebCore/xml/XPathPredicate.h)
 * Wrote [elfrc](https://github.com/yashi/elfrc) (unfortunately my original
   homepage is not accessible anymore, so I'm linking to a fork of my project
   on github). It is a resource compiler for ELF systems (such as Linux). This
