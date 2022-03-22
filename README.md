@@ -32,7 +32,7 @@
 
 ## Professional Experience
 
-## August 2021 -- present: https://www.betterdoc.com[BetterDoc GmbH]
+## August 2021 -- present: [BetterDoc GmbH](https://www.betterdoc.com)
 
 * Worked on microservice architecture built using Elixir, using technologies
   like Phoenix, Phoenix LiveView or Ecto.
@@ -43,7 +43,7 @@
 * Used Ansible to maintain EC2 instance hosting a remote desktop system
   (Ubuntu) used by other team members.
 
-## May 2021 -- August 2021: https://www.welect.de[Welect GmbH]
+## May 2021 -- August 2021: [Welect GmbH](https://www.welect.de)
 
 * Part of a small (3 person) software engineering team building a web platform
   (including a web UI) using JavaScript, SCSS and Elixir (Ecto + Phoenix).
@@ -80,9 +80,8 @@
 * Added 'variable watcher' capability for embedded Python, JavaScript, Perl, Tcl
   and Ruby interpreters. This feature allows inspecting the variables in scope
   for any of those scripting languages at any point in time.
-* Created an integration plugin for http://www8.hp.com/us/en/software-solutions/software.html?compURI=1172141[HP
-  Quality Center]; this plugin is now sold as a standalone product and being
-  used by a substantial number of large customers.
+* Created an integration plugin for [HP Quality
+  Center](http://www8.hp.com/us/en/software-solutions/software.html?compURI=1172141)
 * Designed an XML-based format for encoding test results of automatic GUI
   tests. This format is still being used for exchanging data between various
   processes used internally by Squish - it is also used when customers export
@@ -140,15 +139,14 @@ projects; I did publish a few projects myself, too.
 ## Other Open Source Contributions
 
 * Contributed the support for handling .netrc files to the Hex package manage
-  used by virtually all Elixir projects (cf. https://github.com/hexpm/hex/pull/925[Hex
-  pull request #925]).
+  used by virtually all Elixir projects (cf. [Hex pull request #925](https://github.com/hexpm/hex/pull/925)).
 * Wrote the XPath 1.0 engine for KSVG, the SVG rendering component in KDE.
   This code was eventually integrated into WebKit by Apple because of which
   my name is now mentioned in the Acknowledgements of every WebKit-based
-  browser (such as Chrome or Safari). The code is visible in the XPath*
+  browser (such as Chrome or Safari). The code is visible in the XPath\*
   files in the WebCore source tree, e.g. in
   [XPathPredicate.h](http://source-android.frandroid.com/external/webkit/Source/WebCore/xml/XPathPredicate.h)
-* Wrote https://github.com/yashi/elfrc[elfrc] (unfortunately my original
+* Wrote [elfrc](https://github.com/yashi/elfrc) (unfortunately my original
   homepage is not accessible anymore, so I'm linking to a fork of my project
   on github). It is a resource compiler for ELF systems (such as Linux). This
   program, written in pure C90, converted arbitrary files into ELF object
@@ -158,7 +156,7 @@ projects; I did publish a few projects myself, too.
   array). This was originally meant to be used for self-extracting
   installers on Linux, but is now being used for all kinds of purposes, such
   as for building software for embedded devices by some Japanese vendor.
-* Wrote https://github.com/frerich/clcache[clcache], a Python program which
+* Wrote [clcache](https://github.com/frerich/clcache), a Python program which
   works as a compiler cache for Microsoft Visual Studio. It behaves much like
   [ccache](http://ccache.samba.org/) does for gcc.
 * Early contributor to [distcc](http://code.google.com/p/distcc/); I contributed
@@ -166,18 +164,18 @@ projects; I did publish a few projects myself, too.
   [NEWS](http://code.google.com/p/distcc/source/browse/trunk/NEWS#604) file
   of the source code) as well as documentation improvements.
 * Listed as a [FreeBSD
-  contributor](http://www.freebsd.org/doc/en_US.ISO8859-1/articles/contributors/contrib-additional.html
+  contributor](http://www.freebsd.org/doc/en_US.ISO8859-1/articles/contributors/contrib-additional.html)
   for creating FreeBSD ports (the software packaging system
   used on FreeBSD) for various programs such as
   [VCool](http://www.freebsdsoftware.org/sysutils/fvcool.html),
   [rc5pipe](http://www.freebsdsoftware.org/security/rc5pipe.html),
   [selfhtml](http://www.freebsdsoftware.org/german/selfhtml.html) and others. I
   also contributed to the default package management program on FreeBSD,
-  'pkg_add'. http://www.freebsd.org/cgi/query-pr-summary.cgi?category=&severity=&priority=&class=&state=&sort=none&text=&responsible=&multitext=&originator=frerich+raabe&closedtoo=on&release=[This
-  query] lists all my contributions to FreeBSD in detail.
+  `pkg_add`. [This query](http://www.freebsd.org/cgi/query-pr-summary.cgi?category=&severity=&priority=&class=&state=&sort=none&text=&responsible=&multitext=&originator=frerich+raabe&closedtoo=on&release=)
+  lists all my contributions to FreeBSD in detail.
 * Completely rewrote the [freebsd.kde.org](http://freebsd.kde.org/) website
   using PHP and maintained it for a few months.
-* Ported the https://github.com/rentzsch/mach_override[mach_override] project,
+* Ported the [mach_override](https://github.com/rentzsch/mach_override) project,
   which allows hooking C functions on OS X, to use the
   [udis86](http://udis86.sourceforge.net/) disassembler.
 
@@ -187,6 +185,6 @@ projects; I did publish a few projects myself, too.
   website, my [profile](http://stackoverflow.com/users/91757/frerich-raabe)
   details the questions I answered as well as the badges I earned.
 
-* I'm a https://exercism.org/profiles/frerich[mentor on the Exercism project]
+* I'm a [mentor on the Exercism project](https://exercism.org/profiles/frerich)
   for the Haskell language track, reviewing code of students and providing
   feedback.
