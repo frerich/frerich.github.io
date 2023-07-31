@@ -149,6 +149,10 @@ projects; I did publish a few projects myself, too.
 
 * Contributed the support for handling .netrc files to the Hex package manage
   used by virtually all Elixir projects (cf. [Hex pull request #925](https://github.com/hexpm/hex/pull/925)).
+* Added a check to Elixir's Credo tool suggesting more efficient
+  usage of the Enum API (cf. [credo pull request #1022](https://github.com/rrrene/credo/pull/1022)).
+* Extended the `ecto_sql` library of Elixir such that its DSL permits
+  expressing UPDATE statements involving outer joins (cf. [ecto_sql pull request #457](https://github.com/elixir-ecto/ecto_sql/pull/457)).
 * Wrote [elfrc](https://github.com/yashi/elfrc) (unfortunately my original
   homepage is not accessible anymore, so I'm linking to a fork of my project
   on github). It is a resource compiler for ELF systems (such as Linux). This
