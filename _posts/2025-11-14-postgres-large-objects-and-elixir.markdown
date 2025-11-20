@@ -97,7 +97,7 @@ large object given a binary of data:
 ```elixir
 Repo.transact(fn ->
   large_binary = "This is a large binary."
-  {:ok, object_id} = Repo.export_large_object(large_binary)
+  {:ok, object_id} = Repo.import_large_object(large_binary)
 end)
 ```
 
