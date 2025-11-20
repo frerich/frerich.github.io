@@ -242,7 +242,7 @@ mechanisms for storing large objects.
 For example, the [AWS RDS
 documentation](https://aws.amazon.com/rds/postgresql/pricing/) (RDS is Amazon's
 managed database offering) explains that at the time of this writing, 1GB of
-General Purpose storage for a in the us-east-1 region costs $0.115 per month
+General Purpose storage in the us-east-1 region costs $0.115 per month
 for a PostgreSQL database. The [AWS S3
 documentation](https://aws.amazon.com/s3/pricing/) (S3 is Amazon's object
 storage offering) documents, at the time of this writing, that storing 1GB of
