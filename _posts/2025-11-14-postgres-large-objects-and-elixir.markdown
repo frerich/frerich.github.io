@@ -253,14 +253,14 @@ RDS is five times as expensive as storing it in S3. Depending on the amount of
 data and your budget, this might be a significant difference.
 
 Make sure to check the pricing (if applicable) for storage used by your
-PostgreSQL database and consider the change in the decision whether to use
-large objects or not.
+PostgreSQL database and consider a possible increase in costs in the decision
+whether to use large objects or not.
 
 ## Backups
 
 Given that large objects may quickly end up being the bulk of data stored in a
-database, it's common to configure backups to exclude them from backups or only
-include them in weekly backups or similar.
+database, it's common to exclude them from backups or only include them in
+weekly backups or similar.
 
 For example, the `pg_dump` command line utility features four related options:
 
