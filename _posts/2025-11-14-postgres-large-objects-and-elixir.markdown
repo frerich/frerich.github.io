@@ -68,14 +68,14 @@ read from or written to exist on the PostgreSQL server itself! There's no
 ready-made API for streaming data from/to a client.
 
 A new library seeks to remedy this situation for Elixir developers: the
-[pg_large_objects](https://hexdocs.pm/pg_large_objects) library.
+[pg_large_objects](https://pg-large-objects.hexdocs.pm/) library.
 
 The library features four main benefits:
 
 # 1. High-level API for memory-efficient streaming
 
 The high-level API of
-[PgLargeObjects](https://hexdocs.pm/pg_large_objects/PgLargeObjects.html)
+[PgLargeObjects](https://pg-large-objects.hexdocs.pm/PgLargeObjects.html)
 permits streaming large amounts of data (up to 4TB) while using a constant
 amount of memory. The API references objects by 'object IDs', which are plain
 integers.  For example, this is how to export a local object to a local file in
@@ -113,7 +113,7 @@ invalid (closed) handles.
 Instead of operating on objects as a whole, it's also possible to read and
 write small chunks of data to arbitrary positions within the file by using the
 low-level
-[PgLargeObjects.LargeObject](https://hexdocs.pm/pg_large_objects/PgLargeObjects.LargeObject.html)
+[PgLargeObjects.LargeObject](https://pg-large-objects.hexdocs.pm/PgLargeObjects.LargeObject.html)
 API.
 
 For example, this is how to read the last 1024 bytes of an object:
@@ -153,13 +153,13 @@ be accessed via functions in the `Enum` or `Stream` modules.
 This low-level API not only provides a huge amount of control, it also enables
 integrating the library with other Elixir libraries, e.g. by defining an
 appropriate implementation of
-[Phoenix.LiveView.UploadWriter](https://hexdocs.pm/phoenix_live_view/Phoenix.LiveView.UploadWriter.html).
+[Phoenix.LiveView.UploadWriter](https://phoenix-live-view.hexdocs.pm/Phoenix.LiveView.UploadWriter.html).
 
 
 # 3. Extensions to the Ecto query DSL
 
 The
-[PgLargeObjects.EctoQuery](https://hexdocs.pm/pg_large_objects/PgLargeObjects.EctoQuery.html)
+[PgLargeObjects.EctoQuery](https://pg-large-objects.hexdocs.pm/PgLargeObjects.EctoQuery.html)
 module defines macros which permit calling the low-level API for large objects
 directly as part of a query. Quoting the documentation, here is an example of
 how to remove any uploads associated with some imaginary user in an
@@ -178,9 +178,9 @@ from(upload in Upload,
 
 # 4. Integration with Phoenix LiveView uploads
 
-[PgLargeObjects.UploadWriter](https://hexdocs.pm/pg_large_objects/PgLargeObjects.UploadWriter.html)
+[PgLargeObjects.UploadWriter](https://pg-large-objects.hexdocs.pm/PgLargeObjects.UploadWriter.html)
 is a ready-to-use definition ot the
-[Phoenix.LiveView.UploadWriter](https://hexdocs.pm/phoenix_live_view/Phoenix.LiveView.UploadWriter.html)
+[Phoenix.LiveView.UploadWriter](https://phoenix-live-view.hexdocs.pm/Phoenix.LiveView.UploadWriter.html)
 behaviour, making it easy to have LiveView uploads stream data directly into
 large objects.
 
